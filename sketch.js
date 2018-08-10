@@ -8,6 +8,6 @@ function draw() {
 
 	background(255,170,120);
 	rect(centerX,centerY,mouseX-centerX,mouseY-centerY);
-	console.log(mouseY,mouseX);
+	//console.log(mouseY,mouseX);
 
 }
