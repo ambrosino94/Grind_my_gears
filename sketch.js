@@ -51,10 +51,11 @@ function mousePressed() {
 	let Size=SRatio(imGears[k],random(80,250));
 	let gear = new Gear(mouseX-Size.w/2,mouseY-Size.h/2,Size,imGears[k])
 	gears.push(gear);
-	console.log(mouseX,mouseY);
+  /*
+  console.log(mouseX,mouseY);
 	console.log(Size.w,Size.h);
 	console.log(mouseX+Size.w,mouseY+Size.h);
-
+  */
 }
 
 function draw() {
