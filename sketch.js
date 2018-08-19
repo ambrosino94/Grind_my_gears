@@ -24,8 +24,8 @@ function preload() {
 }
 
 function setup() {
-//	createCanvas(windowWidth, windowHeight);
-  createCanvas(800, 500);
+	createCanvas(windowWidth, windowHeight);
+  //createCanvas(800, 500);
 
   //for (let i = 0; i < 10; i++) {
 	  /*
@@ -48,7 +48,7 @@ function mousePressed() {
   //}
 
 	let k=round(random(0,2));
-	let Size=SRatio(imGears[k],random(80,500));
+	let Size=SRatio(imGears[k],random(80,250));
 	let gear = new Gear(mouseX-Size.w/2,mouseY-Size.h/2,Size,imGears[k])
 	gears.push(gear);
 	console.log(mouseX,mouseY);
